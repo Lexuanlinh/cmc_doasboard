@@ -1,0 +1,77 @@
+{"properties": [
+  {
+    "name": "spring.dashboard.datasource.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.dashboard.datasource.driver-class-name'"
+  },
+  {
+    "name": "spring.dashboard.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.dashboard.datasource.url'"
+  },
+  {
+    "name": "spring.dashboard.datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.dashboard.datasource.username'"
+  },
+  {
+    "name": "spring.dashboard.datasource.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.dashboard.datasource.password'"
+  },
+  {
+    "name": "spring.dashboard.datasource.dbcp.test-while-idle",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.dashboard.datasource.dbcp.test-while-idle'"
+  },
+  {
+    "name": "spring.dashboard.datasource.dbcp.test-while-idle",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.dashboard.datasource.dbcp.test-while-idle'"
+  },
+  {
+    "name": "spring.dashboard.datasource.dbcp.validation-query",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.dashboard.datasource.dbcp.validation-query'"
+  },
+  {
+    "name": "spring.qms.datasource.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.qms.datasource.driver-class-name'"
+  },
+  {
+    "name": "spring.qms.datasource.url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.qms.datasource.url'"
+  },
+  {
+    "name": "spring.qms.datasource.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.qms.datasource.username'"
+  },
+  {
+    "name": "spring.qms.datasource.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.qms.datasource.password'"
+  },
+  {
+    "name": "spring.qms.dbcp.test-while-idle",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.qms.dbcp.test-while-idle'"
+  },
+  {
+    "name": "spring.qms.dbcp.validation-query",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.qms.dbcp.validation-query'"
+  },
+  {
+    "name": "spring.jpa.format-sql",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.jpa.format-sql'"
+  },
+  {
+    "name": "app.jwt.signingKey",
+    "type": "java.lang.String",
+    "description": "A description for 'app.jwt.signingKey'"
+  }
+]}

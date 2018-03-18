@@ -1,0 +1,366 @@
+1653257 [http-nio-8080-exec-8] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init ----  
+1653261 [http-nio-8080-exec-8] INFO  c.c.d.s.UserAuthenticationProvider - 3.--UserDetails --- retrieveUser(String username, UsernamePasswordAuthenticationToken token)-  
+1653261 [http-nio-8080-exec-8] INFO  c.c.d.s.UserAuthenticationProvider - org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ed81b3ce: Principal: hnhieu; Credentials: [PROTECTED]; Authenticated: false; Details: {grant_type=password, client_id=dashboard, username=hnhieu}; Not granted any authorities 
+1653261 [http-nio-8080-exec-8] DEBUG c.c.d.s.UserAuthenticationProvider - > retrieveUser 
+1653261 [http-nio-8080-exec-8] INFO  c.c.d.s.CustomUserDetailsService - 2---CustomUserDetailsService init --- CustomUserDetailsService-  
+1653264 [http-nio-8080-exec-8] INFO  c.c.d.s.CustomUserDetailsService - 2---findByUserName  
+1653273 [http-nio-8080-exec-8] INFO  c.c.d.s.CustomUserDetailsService - 2---Collection<GrantedAuthority> getAuthorities(User user)  
+1653273 [http-nio-8080-exec-8] INFO  c.c.d.s.CustomUserDetailsService - 2---buildPasswordWithSalt  
+1653273 [http-nio-8080-exec-8] DEBUG c.c.d.s.UserAuthenticationProvider - < retrieveUser 
+1653273 [http-nio-8080-exec-8] INFO  c.c.d.s.UserAuthenticationProvider - 3.--additionalAuthenticationChecks --- public void init(FilterConfig filterConfig)-  
+1653273 [http-nio-8080-exec-8] INFO  c.c.d.s.UserAuthenticationProvider - org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ed81b3ce: Principal: hnhieu; Credentials: [PROTECTED]; Authenticated: false; Details: {grant_type=password, client_id=dashboard, username=hnhieu}; Not granted any authorities 
+1653273 [http-nio-8080-exec-8] DEBUG c.c.d.s.UserAuthenticationProvider - > additionalAuthenticationChecks 
+1653273 [http-nio-8080-exec-8] INFO  c.c.d.s.UserAuthenticationProvider - 3.--isValidPassword(String reqPpwd, String salt, String dbPass  
+1653273 [http-nio-8080-exec-8] DEBUG c.c.d.s.UserAuthenticationProvider - < 3.--additionalAuthenticationChecks 
+1653273 [http-nio-8080-exec-8] INFO  c.c.d.s.UserAuthenticationProvider - 3.--createSuccessAuthentication  
+1653283 [http-nio-8080-exec-9] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init ----  
+1740487 [http-nio-8080-exec-1] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init ----  
+1740492 [http-nio-8080-exec-1] INFO  c.c.d.s.UserAuthenticationProvider - 3.--UserDetails --- retrieveUser(String username, UsernamePasswordAuthenticationToken token)-  
+1740492 [http-nio-8080-exec-1] INFO  c.c.d.s.UserAuthenticationProvider - org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ac1e95c8: Principal: nman; Credentials: [PROTECTED]; Authenticated: false; Details: {grant_type=password, client_id=dashboard, username=nman}; Not granted any authorities 
+1740492 [http-nio-8080-exec-1] DEBUG c.c.d.s.UserAuthenticationProvider - > retrieveUser 
+1740492 [http-nio-8080-exec-1] INFO  c.c.d.s.CustomUserDetailsService - 2---CustomUserDetailsService init --- CustomUserDetailsService-  
+1740497 [http-nio-8080-exec-1] INFO  c.c.d.s.CustomUserDetailsService - 2---findByUserName  
+1740517 [http-nio-8080-exec-1] INFO  c.c.d.s.CustomUserDetailsService - 2---Collection<GrantedAuthority> getAuthorities(User user)  
+1740517 [http-nio-8080-exec-1] INFO  c.c.d.s.CustomUserDetailsService - 2---buildPasswordWithSalt  
+1740517 [http-nio-8080-exec-1] DEBUG c.c.d.s.UserAuthenticationProvider - < retrieveUser 
+1740517 [http-nio-8080-exec-1] INFO  c.c.d.s.UserAuthenticationProvider - 3.--additionalAuthenticationChecks --- public void init(FilterConfig filterConfig)-  
+1740517 [http-nio-8080-exec-1] INFO  c.c.d.s.UserAuthenticationProvider - org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ac1e95c8: Principal: nman; Credentials: [PROTECTED]; Authenticated: false; Details: {grant_type=password, client_id=dashboard, username=nman}; Not granted any authorities 
+1740517 [http-nio-8080-exec-1] DEBUG c.c.d.s.UserAuthenticationProvider - > additionalAuthenticationChecks 
+1740517 [http-nio-8080-exec-1] INFO  c.c.d.s.UserAuthenticationProvider - 3.--isValidPassword(String reqPpwd, String salt, String dbPass  
+1740517 [http-nio-8080-exec-1] DEBUG c.c.d.s.UserAuthenticationProvider - < 3.--additionalAuthenticationChecks 
+1740517 [http-nio-8080-exec-1] INFO  c.c.d.s.UserAuthenticationProvider - 3.--createSuccessAuthentication  
+1740527 [http-nio-8080-exec-2] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init ----  
+2042775 [http-nio-8080-exec-5] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init ----  
+2042778 [http-nio-8080-exec-5] INFO  c.c.d.s.UserAuthenticationProvider - 3.--UserDetails --- retrieveUser(String username, UsernamePasswordAuthenticationToken token)-  
+2042778 [http-nio-8080-exec-5] INFO  c.c.d.s.UserAuthenticationProvider - org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ae9652ca: Principal: dvngoc; Credentials: [PROTECTED]; Authenticated: false; Details: {grant_type=password, client_id=dashboard, username=dvngoc}; Not granted any authorities 
+2042778 [http-nio-8080-exec-5] DEBUG c.c.d.s.UserAuthenticationProvider - > retrieveUser 
+2042778 [http-nio-8080-exec-5] INFO  c.c.d.s.CustomUserDetailsService - 2---CustomUserDetailsService init --- CustomUserDetailsService-  
+2042785 [http-nio-8080-exec-5] INFO  c.c.d.s.CustomUserDetailsService - 2---findByUserName  
+2042804 [http-nio-8080-exec-5] INFO  c.c.d.s.CustomUserDetailsService - 2---Collection<GrantedAuthority> getAuthorities(User user)  
+2042804 [http-nio-8080-exec-5] INFO  c.c.d.s.CustomUserDetailsService - 2---buildPasswordWithSalt  
+2042805 [http-nio-8080-exec-5] DEBUG c.c.d.s.UserAuthenticationProvider - < retrieveUser 
+2042805 [http-nio-8080-exec-5] INFO  c.c.d.s.UserAuthenticationProvider - 3.--additionalAuthenticationChecks --- public void init(FilterConfig filterConfig)-  
+2042805 [http-nio-8080-exec-5] INFO  c.c.d.s.UserAuthenticationProvider - org.springframework.security.authentication.UsernamePasswordAuthenticationToken@ae9652ca: Principal: dvngoc; Credentials: [PROTECTED]; Authenticated: false; Details: {grant_type=password, client_id=dashboard, username=dvngoc}; Not granted any authorities 
+2042805 [http-nio-8080-exec-5] DEBUG c.c.d.s.UserAuthenticationProvider - > additionalAuthenticationChecks 
+2042805 [http-nio-8080-exec-5] INFO  c.c.d.s.UserAuthenticationProvider - 3.--isValidPassword(String reqPpwd, String salt, String dbPass  
+2042805 [http-nio-8080-exec-5] DEBUG c.c.d.s.UserAuthenticationProvider - < 3.--additionalAuthenticationChecks 
+2042805 [http-nio-8080-exec-5] INFO  c.c.d.s.UserAuthenticationProvider - 3.--createSuccessAuthentication  
+2042815 [http-nio-8080-exec-4] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init ----  
+7468301 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table custom_values if exists 
+7468303 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7468304 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table groups if exists 
+7468304 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7468305 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table members if exists 
+7468306 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7468306 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table overloaded_plans if exists 
+7468306 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7468306 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table permissions if exists 
+7468306 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7468309 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table project_billable if exists 
+7468309 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7468310 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table project_css if exists 
+7468311 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7468311 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table projects if exists 
+7468311 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7468312 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table role if exists 
+7468312 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7468313 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table role_permission if exists 
+7468313 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7468313 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table user_plan if exists 
+7468313 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7468314 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table user_plan_detail if exists 
+7468314 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7468314 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table users if exists 
+7468314 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7468689 [localhost-startStop-2] INFO  c.c.d.security.CorsFilterRequest - 1.--SimpleCORSFilter init --- destroy()-  
+1240 [restartedMain] INFO  c.c.d.DashboardSystemApplication - Starting DashboardSystemApplication on lenovo with PID 11952 (started by admin in D:\Google Driver\CMC_DOASBOARD\dashboard-phase2-backend\dashboard-phase2-backend) 
+1242 [restartedMain] DEBUG c.c.d.DashboardSystemApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE 
+1242 [restartedMain] INFO  c.c.d.DashboardSystemApplication - The following profiles are active: dev 
+5256 [localhost-startStop-1] INFO  c.c.d.security.CorsFilterRequest - 1.--SimpleCORSFilter init 
+5369 [localhost-startStop-1] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init --- public void init(FilterConfig filterConfig)-  
+11070 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000231: Schema export unsuccessful 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2189)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2222)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2017)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:779)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:33)
+	at org.hibernate.tool.hbm2ddl.DatabaseExporter.<init>(DatabaseExporter.java:35)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:425)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:361)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.create(SchemaExport.java:350)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:469)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:444)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:879)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:353)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.cmc.dashboard.DashboardSystemApplication.main(DashboardSystemApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 57 common frames omitted
+17518 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000231: Schema export unsuccessful 
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2189)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2222)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2017)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:779)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:33)
+	at org.hibernate.tool.hbm2ddl.DatabaseExporter.<init>(DatabaseExporter.java:35)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:425)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:375)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:371)
+	at org.hibernate.internal.SessionFactoryImpl.close(SessionFactoryImpl.java:1081)
+	at org.hibernate.jpa.internal.EntityManagerFactoryImpl.close(EntityManagerFactoryImpl.java:347)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.invokeProxyMethod(AbstractEntityManagerFactoryBean.java:459)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(AbstractEntityManagerFactoryBean.java:630)
+	at com.sun.proxy.$Proxy105.close(Unknown Source)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy(AbstractEntityManagerFactoryBean.java:550)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:272)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.destroySingletons(FactoryBeanRegistrySupport.java:230)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:556)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.cmc.dashboard.DashboardSystemApplication.main(DashboardSystemApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 58 common frames omitted
+17535 [localhost-startStop-2] INFO  c.c.d.security.CorsFilterRequest - 1.--SimpleCORSFilter init --- destroy()-  
+530  [restartedMain] INFO  c.c.d.DashboardSystemApplication - Starting DashboardSystemApplication on lenovo with PID 4688 (started by admin in D:\Google Driver\CMC_DOASBOARD\dashboard-phase2-backend\dashboard-phase2-backend) 
+530  [restartedMain] DEBUG c.c.d.DashboardSystemApplication - Running with Spring Boot v1.5.8.RELEASE, Spring v4.3.12.RELEASE 
+530  [restartedMain] INFO  c.c.d.DashboardSystemApplication - The following profiles are active: dev 
+5959 [localhost-startStop-1] INFO  c.c.d.security.CorsFilterRequest - 1.--SimpleCORSFilter init 
+6238 [localhost-startStop-1] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init --- public void init(FilterConfig filterConfig)-  
+7515 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table custom_values if exists 
+7516 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7517 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table groups if exists 
+7517 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7517 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table members if exists 
+7517 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7518 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table overloaded_plans if exists 
+7518 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7518 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table permissions if exists 
+7518 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7519 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table project_billable if exists 
+7519 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7519 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table project_css if exists 
+7519 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7519 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table projects if exists 
+7520 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7520 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table role if exists 
+7520 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7521 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table role_permission if exists 
+7521 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7521 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table user_plan if exists 
+7521 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7521 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table user_plan_detail if exists 
+7522 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7522 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table users if exists 
+7522 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+7529 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: create table custom_values (id integer not null, custom_field_id integer, customized_id integer, customized_type varchar(255), value varchar(255), primary key (id)) 
+7529 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - Table 'custom_values' already exists 
+7534 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: create table groups (group_id integer not null, created_on timestamp, group_desc varchar(255), group_name varchar(255), updated_on timestamp, role_id integer, primary key (group_id)) 
+7534 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - Table 'groups' already exists 
+7539 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: create table members (id integer not null, project_id integer, user_id integer, primary key (id)) 
+7539 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - Table 'members' already exists 
+7540 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: create table overloaded_plans (overloaded_plans_id integer generated by default as identity, from_date timestamp, to_date timestamp, total_effort float, user_id integer, user_plan_id integer, primary key (overloaded_plans_id)) 
+7540 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'by default as identity, from_date timestamp, to_date timestamp, total_effort flo' at line 1 
+7540 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: create table permissions (permission_id integer generated by default as identity, permission_desc varchar(255), permission_name varchar(255), primary key (permission_id)) 
+7540 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'by default as identity, permission_desc varchar(255), permission_name varchar(25' at line 1 
+7540 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: create table project_billable (project_billable_id integer generated by default as identity, billable_month clob, billable_value float, created_on timestamp, delivery_unit varchar(255), end_date date, issue_code varchar(255), pm_name varchar(255), project_id integer, project_name varchar(255), start_date date, updated_on timestamp, primary key (project_billable_id)) 
+7540 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'by default as identity, billable_month clob, billable_value float, created_on ti' at line 1 
+7545 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: create table project_css (project_css_id integer not null, created_on timestamp, delivery_unit varchar(255), end_date timestamp, project_id integer, project_name varchar(255), score_value float, start_date timestamp, time integer, updated_on timestamp, primary key (project_css_id)) 
+7545 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - Table 'project_css' already exists 
+7545 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: create table projects (id integer generated by default as identity, name varchar(255), status integer, primary key (id)) 
+7545 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'by default as identity, name varchar(255), status integer, primary key (id))' at line 1 
+7545 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: create table role (role_id integer generated by default as identity, role_name varchar(255), primary key (role_id)) 
+7545 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'by default as identity, role_name varchar(255), primary key (role_id))' at line 1 
+7546 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: create table role_permission (id integer generated by default as identity, enable integer not null, permission_id integer, role_id integer, primary key (id)) 
+7546 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'by default as identity, enable integer not null, permission_id integer, role_id ' at line 1 
+7546 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: create table user_plan (user_plan_id integer generated by default as identity, created_on timestamp, effort_per_day float, from_date timestamp, is_overloaded boolean, man_day float, man_month float, project_id integer, role varchar(255), to_date timestamp, updated_on timestamp, user_id integer, primary key (user_plan_id)) 
+7546 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'by default as identity, created_on timestamp, effort_per_day float, from_date ti' at line 1 
+7546 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: create table user_plan_detail (id integer generated by default as identity, delivery_unit varchar(255), man_day float, plan_month varchar(255), res_delivery_unit varchar(255), updated_on timestamp, user_plan_id integer, primary key (id)) 
+7546 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'by default as identity, delivery_unit varchar(255), man_day float, plan_month va' at line 1 
+7546 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: create table users (user_id integer not null, created_on timestamp, email varchar(255), full_name varchar(255), hashed_password varchar(255), is_admin tinyint, salt varchar(255), status tinyint not null, updated_on timestamp, user_name varchar(255), id integer generated by default as identity, admin boolean, firstname varchar(255), lastname varchar(255), login varchar(255), group_id integer, primary key (id)) 
+7547 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'by default as identity, admin boolean, firstname varchar(255), lastname varchar(' at line 1 
+7591 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table groups add constraint FKskq6095fibgv9rlwp1ue6ir11 foreign key (role_id) references role 
+7591 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - Can't create table `dashboard`.`#sql-b48_13` (errno: 150 "Foreign key constraint is incorrectly formed") 
+7628 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table role_permission add constraint FK2xn8qv4vw30i04xdxrpvn3bdi foreign key (permission_id) references permissions 
+7628 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - Can't create table `dashboard`.`#sql-b48_13` (errno: 150 "Foreign key constraint is incorrectly formed") 
+7666 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table role_permission add constraint FKa6jx8n8xkesmjmv6jqug6bg68 foreign key (role_id) references role 
+7666 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - Can't create table `dashboard`.`#sql-b48_13` (errno: 150 "Foreign key constraint is incorrectly formed") 
+7709 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table user_plan_detail add constraint FK99vr5o7m295ombttmbufjg81 foreign key (user_plan_id) references user_plan 
+7709 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - Can't create table `dashboard`.`#sql-b48_13` (errno: 150 "Foreign key constraint is incorrectly formed") 
+7750 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table users add constraint FKemfuglprp85bh5xwhfm898ysc foreign key (group_id) references groups 
+7750 [restartedMain] ERROR o.h.tool.hbm2ddl.SchemaExport - Can't create table `dashboard`.`#sql-b48_13` (errno: 150 "Foreign key constraint is incorrectly formed") 
+8659 [restartedMain] INFO  c.c.d.s.CustomUserDetailsService - 2---CustomUserDetailsService --- public void init(FilterConfig filterConfig)-  
+8676 [restartedMain] INFO  c.c.d.s.oauth2.ResourceServerConfig - ---444DefaultTokenServices  
+8676 [restartedMain] INFO  c.c.d.s.oauth2.ResourceServerConfig - ---444public TokenStore tokenStore() 
+9056 [restartedMain] INFO  c.c.d.s.oauth2.ResourceServerConfig - ---444JwtAccessTokenConverter  
+9060 [restartedMain] INFO  c.c.d.s.oauth2.ResourceServerConfig - dashboard.cglobal 
+9397 [restartedMain] INFO  c.c.d.s.oauth2.AuthServerConfig - ---444configure(AuthorizationServerEndpointsConfigurer endpoints) 
+9399 [restartedMain] INFO  c.c.d.s.oauth2.AuthServerConfig -  ---444JwtAccessTokenConverter 
+9399 [restartedMain] INFO  c.c.d.s.oauth2.AuthServerConfig - dashboard.cglobal 
+9522 [restartedMain] INFO  c.c.d.s.oauth2.AuthServerConfig - ---444------------configure--------------- 
+9522 [restartedMain] INFO  c.c.d.s.oauth2.AuthServerConfig - org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer@61dcb398 
+9772 [restartedMain] INFO  c.c.d.s.o.WebSecurityConfiguration - ---444configure(AuthenticationManagerBuilder auth) 
+9772 [restartedMain] INFO  c.c.d.s.o.WebSecurityConfiguration - org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$3@7eacb320 
+9777 [restartedMain] INFO  c.c.d.s.o.WebSecurityConfiguration - ---444protected void configure(HttpSecurity http) throws Exception 
+9790 [restartedMain] INFO  c.c.d.s.oauth2.ResourceServerConfig - ---444configure (ResourceServerSecurityConfigurer resources) 
+9791 [restartedMain] INFO  c.c.d.s.oauth2.ResourceServerConfig - ---444configure(HttpSecurity http) 
+9791 [restartedMain] INFO  c.c.d.s.o.WebSecurityConfiguration - ---444public void configure(WebSecurity web) 
+9906 [restartedMain] INFO  c.c.d.s.o.WebSecurityConfiguration - ---444PasswordEncoder 
+11337 [restartedMain] INFO  c.c.d.DashboardSystemApplication - Started DashboardSystemApplication in 11.118 seconds (JVM running for 11.775) 
+25158 [http-nio-8080-exec-2] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init ----  
+25381 [http-nio-8080-exec-1] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init ----  
+25382 [http-nio-8080-exec-3] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init ----  
+27200 [http-nio-8080-exec-4] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init ----  
+27560 [http-nio-8080-exec-5] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init ----  
+36318 [http-nio-8080-exec-6] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init ----  
+46017 [http-nio-8080-exec-7] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init ----  
+94629 [http-nio-8080-exec-8] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init ----  
+97484 [http-nio-8080-exec-10] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init ----  
+108247 [http-nio-8080-exec-2] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init ----  
+113021 [http-nio-8080-exec-3] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init ----  
+116558 [http-nio-8080-exec-1] INFO  c.c.d.security.CorsFilterRequest - 1.---SimpleCORSFilter init ----  
+147892 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table custom_values if exists 
+147892 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+147892 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table groups if exists 
+147893 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+147893 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table members if exists 
+147893 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+147893 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table overloaded_plans if exists 
+147893 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+147893 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table permissions if exists 
+147893 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+147893 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table project_billable if exists 
+147894 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+147894 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table project_css if exists 
+147894 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+147894 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table projects if exists 
+147894 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+147894 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table role if exists 
+147894 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+147895 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table role_permission if exists 
+147895 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+147895 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table user_plan if exists 
+147895 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+147895 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table user_plan_detail if exists 
+147895 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+147895 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - HHH000389: Unsuccessful: drop table users if exists 
+147895 [RMI TCP Connection(2)-127.0.0.1] ERROR o.h.tool.hbm2ddl.SchemaExport - You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if exists' at line 1 
+147993 [localhost-startStop-2] INFO  c.c.d.security.CorsFilterRequest - 1.--SimpleCORSFilter init --- destroy()-  
